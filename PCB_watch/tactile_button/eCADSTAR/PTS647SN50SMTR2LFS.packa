@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PTS647SN50SMTR2LFS"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-03-15-14:39:30)
+    (mountForm default
+        (footprintRef "PTS647SN50SMTR2LFS")
+        (spec "System")
+    )
+)

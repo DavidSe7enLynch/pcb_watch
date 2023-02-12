@@ -1,0 +1,16 @@
+.S8411-45R :1 ;HARWIN - S8411-45R - HOLDER, COIN CELL, CR1220, FULL REEL
+S8411-45R_1
+*STM U
+*NGS
+*PLB 1="+" 2="-"
+*MXP 4
+*DFN S8411-45R
+~!Mouser Part Number (855-S8411-45R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Harwin/S8411-45R?qs=Qom7kyPojXY6B0JhnWxDgQ%3D%3D)
+~!Manufacturer_Name (Harwin)
+~!Manufacturer_Part_Number (S8411-45R)
+~!Link Datasheet (https://cdn.harwin.com/pdfs/S8411R.pdf)
+~!Height (-)
+~!3D_Model (S8411-45R)
+S8411-45R
+1.1!U 2.1!U 

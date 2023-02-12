@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PTS647SN50SMTR2LFS"
+   (description "Tactile Switches 50mA 12VDC, 1.0N 5.0mm H, G leads")
+   (family "SWI")
+   (package "PTS647SN50SMTR2LFS")
+   (attribute "Datasheet Link" "https://www.ckswitches.com/media/2567/pts647.pdf")
+   (attribute "Geometry.Height" "5mm")
+   (attribute "Mouser Part Number" "611-PTS647SN50SMTR2L")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS647SN50SMTR2LFS?qs=PqoDHHvF649f0IHjdDfo1A%3D%3D")
+   (attribute "Manufacturer_Name" "C & K COMPONENTS")
+   (attribute "Manufacturer_Part_Number" "PTS647SN50SMTR2LFS")
+   (gate
+    (symbol "PTS647SN50SMTR2LFS")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "PTS647SN50SMTR2LFS"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PTS647SN50SMTR2LFS"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.25 2.25)
+      (pt 2.25 2.25)
+      (pt 2.25 -2.25)
+      (pt -2.25 -2.25)
+      (pt -2.25 2.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.4 3.25)
+      (pt 4.4 3.25)
+      (pt 4.4 -3.25)
+      (pt -4.4 -3.25)
+      (pt -4.4 3.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 2.25)
+      (pt 1.5 2.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 -2.25)
+      (pt 1.5 -2.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.25 -0.5)
+      (pt -2.25 0.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.25 -0.5)
+      (pt 2.25 0.5))))
+   (leg 1 (pt -2.625 -1.600) (padstack 0))
+   (leg 2 (pt 2.625 -1.600) (padstack 0))
+   (leg 3 (pt 2.625 1.600) (padstack 0))
+   (leg 4 (pt -2.625 1.600) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 1.550 0 0 0.000))
+   )
+   (model "PTS647SN50SMTR2LFS.stp"
+    (euler 90 0 0)
+    (offset 0 0 1.2999999523162842)
+   )
+  )
+ )
+)

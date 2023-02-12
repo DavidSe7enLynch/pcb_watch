@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "S8411-45R"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-12-22:16:09)
+    (mountForm default
+        (footprintRef "S8411-45R_1")
+        (spec "System")
+    )
+)
